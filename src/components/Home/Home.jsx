@@ -1,9 +1,12 @@
 import React from 'react';
+import Header from '../Header/Header';
+import JobCategory from '../JobCategory/JobCategory';
 
 const Home = () => {
     return (
-        <div>
-          <h1>Home</h1>  
+        <div className=' w-4/5 m-auto'>
+          <Header></Header>
+          <JobCategory></JobCategory>
         </div>
     );
 };
