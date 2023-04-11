@@ -3,9 +3,16 @@ import Header from '../Header/Header';
 import JobCategory from '../JobCategory/JobCategory';
 import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';
 import { useLoaderData } from 'react-router-dom';
+import JobDetails from '../JobDetails/JobDetails';
 
 const Home = () => {
   const jobs =useLoaderData();
+  const showDetails =(job)=> {
+    <JobDetails
+    key={job.id}
+    job={job}
+    ></JobDetails>
+}
     return (
         <div className=' w-4/5 m-auto'>
           <Header></Header>
@@ -19,6 +26,7 @@ const Home = () => {
             jobs.map(job=><FeaturedJobs
             key={job.id}
             job={job}
+            showDetails={showDetails}
             ></FeaturedJobs>)
           }
           </div>

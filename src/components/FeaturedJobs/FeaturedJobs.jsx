@@ -1,9 +1,11 @@
 import React, { useEffect } from 'react';
-import Jobs from '../Jobs/Jobs';
+
 import './FeaturedJobs.css'
 
-const FeaturedJobs = ({job}) => {
+const FeaturedJobs = ({job,showDetails}) => {
     const {logo,jobTitle,company,location,jobType1,jobType2,salary}=job;
+
+    
     
     
     return (
@@ -16,7 +18,7 @@ const FeaturedJobs = ({job}) => {
             
             <p className='text-1xl  my-1'>Location: {location}</p>
             <p className='text-1xl  mb-2'>Salary : <span className='font-semibold'>{salary}</span></p>
-            <button className='bg-blue-400 hover:bg-blue-600 w-1/3 px-3 p-2 rounded-lg text-white font-semibold'>View Details</button>
+            <button onClick={()=>showDetails(job)} className='bg-blue-400 hover:bg-blue-600 w-1/3 px-3 p-2 rounded-lg text-white font-semibold'>View Details</button>
             
             
         </div>
