@@ -26,10 +26,15 @@ const Home = () => {
       </div>
       <div className='grid grid-cols-2 gap-6 mt-10'>
         {
-          jobs.map(job => <FeaturedJobs
-            key={job.id}
-            job={job}
-            showDetails={showDetails}
+          // jobs.map((job) => <FeaturedJobs
+          //   key={job.id}
+          //   job={job}
+          //   showDetails={showDetails}
+          // ></FeaturedJobs>)
+          jobs.map((job)=><FeaturedJobs
+          key={job.id}
+          job={job}
+          showDetails={showDetails}
           ></FeaturedJobs>)
         }
       </div>

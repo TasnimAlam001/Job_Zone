@@ -14,6 +14,7 @@ import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import Blog from './components/Blog/Blog';
 import JobDetails from './components/JobDetails/JobDetails';
 import appliedJobLoader from './loaders/appliedJobsLoader';
+import NotFound from './components/NotFound/NotFound';
 const router =createBrowserRouter([
   {
     path: '/',
@@ -31,22 +32,22 @@ const router =createBrowserRouter([
 
       },
       {
-        path: '/statistics',
+        path: 'statistics',
         element: <Statistics></Statistics>
       },
       {
-        path: '/appliedJobs',
+        path: 'appliedJobs',
         element: <AppliedJobs></AppliedJobs>,
         loader: appliedJobLoader
         
       },
       {
-        path:'/blog',
+        path:'blog',
         element:<Blog></Blog>
       },
       {
-        path: '*',
-        element: <div>Opps... Page not Found</div>
+        path: "*",
+        element: <NotFound></NotFound>
       }
       
     

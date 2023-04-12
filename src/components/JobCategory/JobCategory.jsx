@@ -31,9 +31,6 @@ const JobCategory = () => {
     ];
 
 
-
-
-
     return (
         <div>
             <h1 className='text-center text-5xl mb-3 mt-8'>Job Category List</h1>
@@ -42,8 +39,9 @@ const JobCategory = () => {
             <div className='flex'>
                 {
                     jobs.map(job =>
-
+                        
                         <div className='job'>
+                            
                             <img src={job.img} alt="" />
                             <h4 className='text-2xl mt-3'>{job.name}</h4>
                             <p>{job.availableJob} Jobs Available</p>
