@@ -21,6 +21,7 @@ const Home = () => {
   const showData =()=>{
     const newData = data + 3;
     setData(newData);
+    document.getElementById("btn").classList.add('hidden');
   }
   
 
@@ -44,7 +45,7 @@ const Home = () => {
           ></FeaturedJobs>): null
         }
       </div>
-      <button onClick={showData}  className='bg-blue-400 hover:bg-blue-600 w-1/6 text-center p-2 rounded-lg text-white font-semibold my-8 mx-auto flex justify-center'>Show All</button>
+      <button onClick={showData} id='btn'  className='bg-blue-400 hover:bg-blue-600 w-1/6 text-center p-2 rounded-lg text-white font-semibold my-8 mx-auto flex justify-center'>Show All</button>
     </div>
   );
 };
