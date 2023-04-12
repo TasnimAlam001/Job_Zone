@@ -10,7 +10,7 @@ const FeaturedJobs = ({job,showDetails}) => {
     
     
     return (
-        <div className='border border-slate-300 grid p-8 '>
+        <div className='border border-slate-300 rounded-lg grid p-8 '>
             
             <img className='logo' src={logo} alt="" />
             <p className='text-3xl font-bold my-2'>{jobTitle}</p>
