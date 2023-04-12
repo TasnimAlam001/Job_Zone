@@ -13,7 +13,9 @@ const Home = () => {
       key={selectedJob.id}
       job={selectedJob}
     ></JobDetails>
-  }
+  };
+
+
   return (
     <div className=' w-4/5 m-auto'>
       <Header></Header>

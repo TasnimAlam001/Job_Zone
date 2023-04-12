@@ -9,13 +9,7 @@
         "jobType1": "Full Time",
         "jobType2": "Remote",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Google_logo_and_Chrome_wordmark.svg/2500px-Google_logo_and_Chrome_wordmark.svg.png",
-        "responsibilities": [
-            "Design and implement scalable and reliable backend services using a variety of technologies and platforms.",
-            "Collaborate with cross-functional teams to identify and prioritize software development needs.",
-            "Write high-quality code that is maintainable, efficient, and well-documented.",
-            "Deploy and maintain services in cloud environments such as AWS, GCP, or Azure.",
-            "Monitor and troubleshoot production systems to ensure uptime and reliability."
-        ],
+        "responsibilities": "Design and implement scalable and reliable backend services using a variety of technologies and platforms.Collaborate with cross-functional teams to identify and prioritize software development needs.Deploy and maintain services in cloud environments such as AWS, GCP, or Azure.Monitor and troubleshoot production systems to ensure uptime and reliability.",
         "educationalRequirements": "Bachelor's or Master's degree in Computer Science, Software Engineering, or a related field.",
         "experiencesNeeded": "5+ years of experience in backend development, with a strong background in one or more of the following: Java, Go, Python, or Node.js.",
         "phoneNumber": "+1 (650) 253-0000",
@@ -31,13 +25,7 @@
         "jobType1": "Full Time",
         "jobType2": "Onsite",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Facebook_Logo_%282019%29.svg/2560px-Facebook_Logo_%282019%29.svg.png",
-        "responsibilities": [
-            "Design and implement user interfaces using modern frontend frameworks, such as React or Vue.js.",
-            "Collaborate with cross-functional teams to identify and prioritize software development needs.",
-            "Write high-quality code that is maintainable, efficient, and well-documented.",
-            "Optimize web applications for maximum speed and scalability.",
-            "Stay up-to-date with emerging trends and technologies in frontend development."
-        ],
+        "responsibilities": "Design and implement user interfaces using modern frontend frameworks, such as React or Vue.js.            Collaborate with cross-functional teams to identify and prioritize software development needs.            Write high-quality code that is maintainable, efficient, and well-documented.            Optimize web applications for maximum speed and scalability.            Stay up-to-date with emerging trends and technologies in frontend development.",
         "educationalRequirements": "Bachelor's or Master's degree in Computer Science, Software Engineering, or a related field.",
         "experiencesNeeded": "3+ years of experience in frontend development, with a strong background in one or more of the following: React, Angular, or Vue.js.",
         "phoneNumber": "+1 (650) 543-4800",
@@ -52,26 +40,13 @@
         "salary": "$130,000 - $200,000",
         "jobType1": "Full Time",
         "jobType2": "Onsite",
-
         "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
-        "responsibilities": [
-            "Design and develop algorithms and statistical models to analyze large data sets.",
-            "Collaborate with cross-functional teams to identify business problems and develop data-driven solutions.",
-            "Visualize and communicate data insights to technical and non-technical stakeholders.",
-            "Develop and maintain scalable data pipelines and platforms.",
-            "Stay up-to-date with emerging trends and technologies in data science and machine learning."
-        ],
+        "responsibilities": "Design and develop algorithms and statistical models to analyze large data sets.            Collaborate with cross-functional teams to identify business problems and develop data-driven solutions.            Visualize and communicate data insights to technical and non-technical stakeholders.            Develop and maintain scalable data pipelines and platforms.            Stay up-to-date with emerging trends and technologies in data science and machine learning.",
         "educationalRequirements": "Bachelor's or Master's degree in Data Science, Computer Science, Statistics, or a related field.",
         "experiencesNeeded": "3+ years of experience in data science, with a strong background in statistics, mathematics, and computer science.",
         "jobType1": "Full Time",
         "jobType2": "Remote",
-        "responsibilities": [
-            "Design and implement complex software solutions that meet business requirements.",
-            "Collaborate with cross-functional teams to identify and prioritize software development needs.",
-            "Write high-quality code that is maintainable, efficient, and well-documented.",
-            "Perform code reviews and provide feedback to other developers.",
-            "Stay up-to-date with emerging trends and technologies in software development."
-        ],
+        "responsibilities": " Design and implement complex software solutions that meet business requirements.   Collaborate with cross-functional teams to identify and prioritize software delopment needs.            Write high-quality code that is maintainable, efficient, and well-documented.            Perform code reviews and provide feedback to other developers.            Stay up-to-date with emerging trends and technologies in software development.",
         "educationalRequirements": "Bachelor's or Master's degree in Computer Science, Software Engineering, or a related field.",
         "experiencesNeeded": "5+ years of experience in software development, with a strong background in computer science, programming, and software engineering.",
         "phoneNumber": "+1 (206) 266-1000",
@@ -87,13 +62,7 @@
         "jobType1": "Full Time",
         "jobType2": "Onsite",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/2560px-Microsoft_logo_%282012%29.svg.png",
-        "responsibilities": [
-            "Design and implement high-quality mobile applications for iOS and Android using frameworks such as React Native or Xamarin.",
-            "Collaborate with cross-functional teams to identify and prioritize software development needs.",
-            "Write high-quality code that is maintainable, efficient, and well-documented.",
-            "Optimize mobile applications for maximum speed and scalability.",
-            "Stay up-to-date with emerging trends and technologies in mobile development."
-        ],
+        "responsibilities": "            Design and implement high-quality mobile applications for iOS and Android using frameworks such as React Native or Xamarin.            Collaborate with cross-functional teams to identify and prioritize software development needs.            Write high-quality code that is maintainable, efficient, and well-documented.           Optimize mobile applications for maximum speed and scalability.            Stay up-to-date with emerging trends and technologies in mobile development.",
         "educationalRequirements": "Bachelor's or Master's degree in Computer Science, Software Engineering, or a related field.",
         "experiencesNeeded": "3+ years of experience in mobile development, with a strong background in one or more of the following: React Native, Xamarin, Swift, or Kotlin.",
         "phoneNumber": "+1 (425) 882-8080",
@@ -109,13 +78,7 @@
         "jobType1": "Full Time",
         "jobType2": "Remote",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
-        "responsibilities": [
-            "Design and implement scalable and reliable cloud infrastructure using a variety of technologies and platforms.",
-            "Collaborate with cross-functional teams to identify and prioritize infrastructure needs.",
-            "Write infrastructure-as-code and deploy services using tools such as Terraform or CloudFormation.",
-            "Monitor and troubleshoot production systems to ensure uptime and reliability.",
-            "Stay up-to-date with emerging trends and technologies in DevOps and cloud infrastructure."
-        ],
+        "responsibilities": "Design and implement scalable and reliable cloud infrastructure using a variety of technologies and platforms.            Collaborate with cross-functional teams to identify and prioritize infrastructure needs.            Write infrastructure-as-code and deploy services using tools such as Terraform or CloudFormation.            Monitor and troubleshoot production systems to ensure uptime and reliability.            Stay up-to-date with emerging trends and technologies in DevOps and cloud infrastructure.",
         "educationalRequirements": "Bachelor's or Master's degree in Computer Science, Software Engineering, or a related field.",
         "experiencesNeeded": "5+ years of experience in DevOps, with a strong background in AWS, Kubernetes, and infrastructure-as-code tools such as Terraform or CloudFormation.",
         "phoneNumber": "+1 (408) 540-3700",
@@ -131,15 +94,13 @@
         "jobType1": "Full Time",
         "jobType2": "Onsite",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/J_P_Morgan_Logo_2008_1.svg/2560px-J_P_Morgan_Logo_2008_1.svg.png",
-        "responsibilities": [
-            "Analyze financial data and prepare reports and presentations for senior management and stakeholders.",
-            "Develop financial models to support business planning and decision-making.",
-            "Collaborate with cross-functional teams to identify financial risks and opportunities.",
-            "Ensure compliance with regulatory requirements and company policies.",
-            "Stay up-to-date with industry trends and best practices in finance and accounting."
-        ],
+        "responsibilities": "Analyze financial data and prepare reports and presentations for senior management and stakeholders.            Develop financial models to support business planning and decision-making.        Collaborate with cross-functional teams to identify financial risks and opportunities.            Ensure compliance with regulatory requirements and company policies.            Stay up-to-date with industry trends and best practices in finance and accounting.",
         "educationalRequirements": "Bachelor's or Master's degree in Finance, Accounting, Business Administration, or a related field.",
-        "experiencesNeeded": "5+ years of experience in finance, accounting, or data analysis, with a strong understanding of financial modeling and analysis."
+        "experiencesNeeded": "5+ years of experience in finance, accounting, or data analysis, with a strong understanding of financial modeling and analysis.",
+        "phoneNumber": "+1 (408) 320-0000",
+        "email": "recruiting@morgan.com"
+
+
     },
     {
         "id": "7",
@@ -151,13 +112,7 @@
         "jobType1": "Full Time",
         "jobType2": "Onsite",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Apple_Watch_official_logo.svg/2560px-Apple_Watch_official_logo.svg.png",
-        "responsibilities": [
-            "Design and develop world-class mobile applications for Apple's platforms, with a focus on iOS.",
-            "Collaborate with cross-functional teams to identify and prioritize software development needs.",
-            "Write high-quality code that is maintainable, efficient, and well-documented.",
-            "Perform code reviews and provide feedback to other developers.",
-            "Stay up-to-date with emerging trends and technologies in iOS development."
-        ],
+        "responsibilities": "Design and develop world-class mobile applications for Apple's platforms, with a focus on iOS.            Collaborate with cross-functional teams to identify and prioritize software development needs.            Write high-quality code that is maintainable, efficient, and well-documented.            Perform code reviews and provide feedback to other developers.            Stay up-to-date with emerging trends and technologies in iOS development.",
         "educationalRequirements": "Bachelor's or Master's degree in Computer Science, Software Engineering, or a related field.",
         "experiencesNeeded": "5+ years of experience in iOS development, with a strong background in Swift, Objective-C, and iOS SDKs.",
         "phoneNumber": "+1 (408) 996-1010",
