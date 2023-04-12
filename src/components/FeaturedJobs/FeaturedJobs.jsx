@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react';
 
 import './FeaturedJobs.css'
+import { Link } from 'react-router-dom';
 
 const FeaturedJobs = ({job,showDetails}) => {
-    const {logo,jobTitle,company,location,jobType1,jobType2,salary}=job;
+    const {id,logo,jobTitle,company,location,jobType1,jobType2,salary}=job;
 
     
     
@@ -18,7 +19,7 @@ const FeaturedJobs = ({job,showDetails}) => {
             
             <p className='text-1xl  my-1'>Location: {location}</p>
             <p className='text-1xl  mb-2'>Salary : <span className='font-semibold'>{salary}</span></p>
-            <button onClick={()=>showDetails(job)} className='bg-blue-400 hover:bg-blue-600 w-1/3 px-3 p-2 rounded-lg text-white font-semibold'>View Details</button>
+            <Link to={`/${id}`} onClick={()=>showDetails(job)} className='bg-blue-400 hover:bg-blue-600 w-1/4 text-center p-2 rounded-lg text-white font-semibold'> View Details </Link>
             
             
         </div>
