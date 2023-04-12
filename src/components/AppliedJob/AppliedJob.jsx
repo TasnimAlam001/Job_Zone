@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const AppliedJob = ({ job }) => {
     const {id,logo, jobTitle, company, location, salary, jobType1, jobType2 } = job;
-    console.log(job)
+    // console.log(job)
     return (
         <div className='border border-slate-200 my-5 w-3/4 mx-auto rounded-lg p-5 grid grid-cols-3 gap-4'>
             <img className='logo2 my-auto' src={logo} alt="" />

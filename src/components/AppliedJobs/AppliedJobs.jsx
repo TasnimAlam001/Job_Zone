@@ -4,7 +4,7 @@ import AppliedJob from '../AppliedJob/AppliedJob';
 
 const AppliedJobs = () => {
     const appliedJobs = useLoaderData()
-    console.log(appliedJobs)
+    
     return (
         <div>
             <h1 className='text-5xl font-bold text-center -scroll-mt-12'>Applied Jobs</h1>

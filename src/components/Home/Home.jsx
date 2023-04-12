@@ -7,6 +7,7 @@ import JobDetails from '../JobDetails/JobDetails';
 
 const Home = () => {
   const jobs = useLoaderData();
+  //console.log(jobs)
   const showDetails = (selectedJob) => {
     // console.log(selectedJob);
     <JobDetails
@@ -26,16 +27,13 @@ const Home = () => {
       </div>
       <div className='grid grid-cols-2 gap-6 mt-10'>
         {
-          // jobs.map((job) => <FeaturedJobs
-          //   key={job.id}
-          //   job={job}
-          //   showDetails={showDetails}
-          // ></FeaturedJobs>)
+          Array.isArray(jobs)
+          ?
           jobs.map((job)=><FeaturedJobs
           key={job.id}
           job={job}
           showDetails={showDetails}
-          ></FeaturedJobs>)
+          ></FeaturedJobs>): null
         }
       </div>
     </div>
