@@ -1,18 +1,24 @@
 import React, { useEffect, useState } from 'react';
-import { useLoaderData, useParams } from 'react-router-dom';
+import { Link, useLoaderData, useParams } from 'react-router-dom';
 import { addToDb } from '../../utilities/fakedb';
+
 
 const JobDetails = ()=> {
     
     const jobs = useLoaderData()
+    
     const id = useParams()
     const [selectedJob,setSelectedJob]=useState([]);
     
     useEffect(()=>{
         
             const theJob = jobs.find(job => job.id === id.JobDetailsId);
-            console.log(theJob);
-            setSelectedJob(theJob);
+            
+           
+                
+                setSelectedJob(theJob);
+            
+            
     
 
     },[]);
@@ -21,7 +27,7 @@ const JobDetails = ()=> {
     // console.log(selectedJob);
     const addToAppliedJob = (appliedJob) => {
         addToDb(appliedJob.id);
-        console.log(appliedJob.id);
+        // console.log(appliedJob.id);
       };
     return (
         <div className='w-3/4 mx-auto mt-10'>

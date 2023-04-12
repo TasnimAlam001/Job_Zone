@@ -16,7 +16,7 @@ const AppliedJob = ({ job }) => {
                 <p className='text-1xl  mb-2'>Salary : <span className='font-semibold'>{salary}</span></p>
             </div>
             <div className='content-center my-auto'>
-                <Link to={`/${id}`} className='bg-blue-400 hover:bg-blue-600 text-center h-fit  ml-24 p-2 rounded-lg text-white font-semibold'>View Details</Link>
+                <Link to={`/jobDetails/${id}`} className='bg-blue-400 hover:bg-blue-600 text-center h-fit  ml-24 p-2 rounded-lg text-white font-semibold'>View Details</Link>
             </div>
         </div>
     );

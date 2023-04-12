@@ -9,8 +9,9 @@ const Navbar = () => {
                 <div className='md:flex items-center'>
                     <Link className='mr-2 md:mr-4' to="/">Home</Link>
                     <Link className='mr-2 md:mr-4' to="/statistics">Statistics</Link>
-                    <Link className='mr-2 md:mr-4' to="/appliedJobs">Applied Jobs</Link>
+                    <a className='mr-2 md:mr-4' href="/appliedJobs">Applied Jobs</a>
                     <Link className='mr-2 md:mr-4' to="/blog">Blog</Link>
+                    
                 </div>
                 <button className='bg-purple-400 p-3 rounded text-white'>Star Applying</button>
             </div>
