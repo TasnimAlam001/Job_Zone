@@ -1,6 +1,6 @@
 import React from 'react';
 import './JobCategory.css'
-import { key } from 'localforage';
+import JobSector from '../JobSectort/JobSector';
 
 const JobCategory = () => {
     const jobs = [
@@ -36,16 +36,17 @@ const JobCategory = () => {
             <h1 className='text-center text-3xl md:text-5xl mb-3 mt-8'>Job Category List</h1>
             <p className='text-center mb-5'>Explore thousands of job opportunities with all the information you need. Its your future</p>
 
-            <div className='grid grid-cols-2 md:grid-cols-4 gap-4'>
+            <div className='grid grid-cols-2 md:grid-cols-4 gap-4 '>
                 {
                     jobs.map(job =>
-                        
-                        <div className='job'>
-                            
-                            <img src={job.img} alt="" />
-                            <h4 className='text-2xl mt-3'>{job.name}</h4>
-                            <p>{job.availableJob} Jobs Available</p>
+                        <div className='bg-sky-100 rounded'>
+
+                            <JobSector
+                                key={job.id}
+                                job={job}
+                            ></JobSector>
                         </div>
+
                     )
                 }
             </div>
