@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Header from '../Header/Header';
 import JobCategory from '../JobCategory/JobCategory';
 import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';
@@ -16,6 +16,14 @@ const Home = () => {
     ></JobDetails>
   };
 
+  const [data, setData]=useState(4)
+  const sliceData = jobs.slice(0,data)
+  const showData =()=>{
+    const newData = data + 3;
+    setData(newData);
+  }
+  
+
 
   return (
     <div className=' w-4/5 m-auto'>
@@ -29,13 +37,14 @@ const Home = () => {
         {
           Array.isArray(jobs)
           ?
-          jobs.map((job)=><FeaturedJobs
+          sliceData.map((job)=><FeaturedJobs
           key={job.id}
           job={job}
           showDetails={showDetails}
           ></FeaturedJobs>): null
         }
       </div>
+      <button onClick={showData}  className='bg-blue-400 hover:bg-blue-600 w-1/6 text-center p-2 rounded-lg text-white font-semibold my-8 mx-auto flex justify-center'>Show All</button>
     </div>
   );
 };
