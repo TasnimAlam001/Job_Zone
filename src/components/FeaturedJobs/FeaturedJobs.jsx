@@ -10,7 +10,7 @@ const FeaturedJobs = ({job,showDetails}) => {
     
     
     return (
-        <div className='border border-slate-300 rounded-lg grid p-8 '>
+        <div className='border border-slate-300 rounded-lg grid  p-8 '>
             
             <img className='logo' src={logo} alt="" />
             <p className='text-3xl font-bold my-2'>{jobTitle}</p>
@@ -19,7 +19,7 @@ const FeaturedJobs = ({job,showDetails}) => {
             
             <p className='text-1xl  my-1'>Location: {location}</p>
             <p className='text-1xl  mb-2'>Salary : <span className='font-semibold'>{salary}</span></p>
-            <Link to={`/${id}`} onClick={()=>showDetails(job)} className='bg-blue-400 hover:bg-blue-600 w-1/4 text-center p-2 rounded-lg text-white font-semibold'> View Details </Link>
+            <Link to={`/jobDetails/${id}`} onClick={()=>showDetails(job)} className='bg-blue-400 hover:bg-blue-600 w-1/4 text-center p-2 rounded-lg text-white font-semibold'> View Details </Link>
             
             
         </div>

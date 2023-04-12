@@ -6,11 +6,12 @@ const JobDetails = ()=> {
     
     const jobs = useLoaderData()
     const id = useParams()
-    const [selectedJob,setSelectedJob]=useState({});
+    const [selectedJob,setSelectedJob]=useState([]);
     
     useEffect(()=>{
         
             const theJob = jobs.find(job => job.id === id.JobDetailsId);
+            console.log(theJob);
             setSelectedJob(theJob);
     
 
@@ -27,7 +28,7 @@ const JobDetails = ()=> {
             <h1 className='text-3xl text-center font-bold my-12'>Job Details</h1>
             <div className='grid grid-cols-3 gap-4'>
                 <div className='col-span-2'>
-                    <p className='my-3'><span className='font-bold'>Job Responsibilities</span>{selectedJob.responsibilities}</p>
+                    <p className='my-3'><span className='font-bold'>Job Responsibilities</span>{selectedJob.responsibilities ? selectedJob.responsibilities : ''}</p>
                     <p className='my-3'><span className='font-bold'>Job Description:</span> {selectedJob.description}</p>
                     <p className='my-3'><span className='font-bold'>Educational Requirements:</span><br /> {selectedJob.educationalRequirements}</p>
                     <p className='my-3'><span className='font-bold'>Experiences:</span><br /> {selectedJob.experiencesNeeded}</p>
